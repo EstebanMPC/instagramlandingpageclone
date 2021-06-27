@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #fafafa;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "roboto";
+}
+
+.left-content {
+  width: 350px;
+  height: 380px;
+  background-color: white;
+  border: 1px solid lightgray;
+}
+
+.form-container,
+.break {
+  margin: 10px 40px;
+  text-align: center;
+}
+
+.logo-img {
+  width: 90%;
+}
+
+.left-content {
+  width: 100%;
+}
+
+input {
+  width: 100%;
+}
+
+input[type="email"],
+input[type="password"] {
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+  padding: 9px 0px 7px 8px;
+}
+
+input[type="email"] {
+  margin-bottom: 8px;
+}
+
+input[type="password"] {
+  margin-bottom: 15px;
+}
+
+.login {
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+  padding: 9px 0px 7px 8px;
+  color: #fafafa;
+  background-color: #458eff;
+  width: 104%;
+  margin-bottom: 10px;
+}
+
+.break {
+  font-weight: bold;
+  display: grid;
+  grid-auto-flow: column;
+  color: lightgray;
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+
+.left-line {
+  box-sizing: border-box;
+  border-top: 1px solid lightgray;
+}
+
+.bottom {
+  text-align: center;
+}
+
+.fb-link {
+  color: #3b5998;
+  font-size: 14px;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.forgot {
+  font-size: 12px;
+  margin-top: 15px;
+  text-align: center;
+  color: #3b5998;
+}
+
+.container-2 {
+  width: 350px;
+  height: 30px;
+  background-color: white;
+  margin-top: 55px;
+  text-align: center;
+  padding: 15px 0px;
+  font-size: 12px;
+  border: 1px solid lightgray;
+}
+
+.signup-link {
+  color: #458eff;
+  text-decoration: none;
+}
+
+.get-app {
+  margin: 25px 0px;
+  font-size: 14px;
+  font-weight: lighter;
+  margin-left: 135px;
+}
+
+.stores {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 70px;
+}
+
+.app-img {
+  width: 140px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.app-img2 {
+  width: 140;
+  height: 40px;
+}
+
+.footer {
+  text-decoration: none;
+  color: gray;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 225px;
+}
+
+.app-info1 > a,
+.app-info2 > a {
+  margin: 0 5px;
+}
+
+.info-link {
+  text-decoration: none;
+  color: gray;
+}
+
+.app-info3 {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  color: gray;
+  font-size: 14px;
+}
+
+.boom-selecta {
+  text-decoration: none;
+  border: none;
+  margin-right: 15px;
+  background: none;
+  color: gray;
+}
+
+.final {
+  font-family: "helvetica neue";
+  font-weight: normal;
+}
+
+.left-content {
+  width: 100%;
+}
+
+@media screen and (min-width: 750px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    background-color: ;
+  }
+
+  .container {
+    width: 700px;
+  }
+
+  .left-content {
+    width: 50%;
+  }
+}
